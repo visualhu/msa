@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSP.Common", "MSA.Common\NSP.Common.csproj", "{B413EF11-FE28-47F9-8992-46995A388ADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSPTests", "NSPTests\NSPTests.csproj", "{FEAA9646-18AF-48F4-A58C-FA1E616C43AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSP.Domain", "NSP.Domain\NSP.Domain.csproj", "{D7E2D5E0-2BCE-4D04-9FA7-CFBD5F2D5447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSP.Querying.MySqlClient", "NSP.Querying.MySqlClient\NSP.Querying.MySqlClient.csproj", "{749477F6-D324-4737-AF10-A514714C0CA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{84F51E3F-88F9-4F72-9987-C58C2AF7E2B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSP.Services.Common", "NSP.Services.Common\NSP.Services.Common.csproj", "{F69C8613-655E-4BB1-8481-565C2AEDD955}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B413EF11-FE28-47F9-8992-46995A388ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B413EF11-FE28-47F9-8992-46995A388ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B413EF11-FE28-47F9-8992-46995A388ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B413EF11-FE28-47F9-8992-46995A388ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAA9646-18AF-48F4-A58C-FA1E616C43AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAA9646-18AF-48F4-A58C-FA1E616C43AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAA9646-18AF-48F4-A58C-FA1E616C43AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAA9646-18AF-48F4-A58C-FA1E616C43AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E2D5E0-2BCE-4D04-9FA7-CFBD5F2D5447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E2D5E0-2BCE-4D04-9FA7-CFBD5F2D5447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E2D5E0-2BCE-4D04-9FA7-CFBD5F2D5447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E2D5E0-2BCE-4D04-9FA7-CFBD5F2D5447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749477F6-D324-4737-AF10-A514714C0CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749477F6-D324-4737-AF10-A514714C0CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749477F6-D324-4737-AF10-A514714C0CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749477F6-D324-4737-AF10-A514714C0CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69C8613-655E-4BB1-8481-565C2AEDD955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69C8613-655E-4BB1-8481-565C2AEDD955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69C8613-655E-4BB1-8481-565C2AEDD955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69C8613-655E-4BB1-8481-565C2AEDD955}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F69C8613-655E-4BB1-8481-565C2AEDD955} = {84F51E3F-88F9-4F72-9987-C58C2AF7E2B6}
+	EndGlobalSection
+EndGlobal
