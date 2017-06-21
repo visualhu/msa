@@ -53,7 +53,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MSA.Common\NSP.Common.csproj">
+    <ProjectReference Include="..\NSP.Common\NSP.Common.csproj">
       <Project>{b413ef11-fe28-47f9-8992-46995a388ade}</Project>
       <Name>NSP.Common</Name>
     </ProjectReference>

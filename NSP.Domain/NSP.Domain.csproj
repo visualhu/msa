@@ -50,13 +50,13 @@
     <Compile Include="WithdrawRequest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MSA.Common\NSP.Common.csproj">
-      <Project>{B413EF11-FE28-47F9-8992-46995A388ADE}</Project>
-      <Name>NSP.Common</Name>
-    </ProjectReference>
+    <Folder Include="Commands\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Commands\" />
+    <ProjectReference Include="..\NSP.Common\NSP.Common.csproj">
+      <Project>{b413ef11-fe28-47f9-8992-46995a388ade}</Project>
+      <Name>NSP.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
